@@ -15,3 +15,4 @@ d = pd.concat([d1, d2], 0, sort=False)
 d_nna = d.dropna()
 
 print ("Merging train files with lengths ", len(d1), len(d2), ", output length", len(d_nna))
+d_nna.to_csv(merged_train_file_path)
