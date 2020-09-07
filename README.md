@@ -77,6 +77,11 @@ The code was written with, or depends on:
       ```bash
       bash run_clf.sh 0 <seed> snli <model> <model> gpt2_m_ _ test _ _ <model_path>
       ```
+
+## Example explanations
+Generated explanations on the e-SNLI dev and test sets are present at ```./generated_explanations/*.gz```. Please unzip before using (```gunzip <filename>```).
+The generated explanations are present in the ```entailment_explanation,contradiction_explanation,neutral_explanation``` columns in a csv format.
+
 ## Citation
 If you use this code, please consider citing:
 
