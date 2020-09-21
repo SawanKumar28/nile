@@ -32,10 +32,10 @@ The code was written with, or depends on:
       ```
 1. Generate explanations using the fine-tuned langauge models, where <dataset> can be snli or mnli, and <split> is train/dev/test for SNLI and dev/dev_mm for MNLI.
     ```bash
-    bash run_generate_gpt2m.sh 3 entailment <dataset>  all <split>
-    bash run_generate_gpt2m.sh 4 contradiction <dataset> all <split>
-    bash run_generate_gpt2m.sh 6 neutral <dataset> all <split>
-    bash run_generate_gpt2m.sh 7 all <dataset> all <split>
+    bash run_generate_gpt2m.sh 0 entailment <dataset>  all <split>
+    bash run_generate_gpt2m.sh 0 contradiction <dataset> all <split>
+    bash run_generate_gpt2m.sh 0 neutral <dataset> all <split>
+    bash run_generate_gpt2m.sh 0 all <dataset> all <split>
     ```
 1. Merge generated explanation
     ```bash
@@ -81,6 +81,10 @@ The code was written with, or depends on:
 ## Example explanations
 Generated explanations on the e-SNLI dev and test sets are present at ```./generated_explanations/*.gz```. Please unzip before using (```gunzip <filename>```).
 The generated explanations are present in the ```entailment_explanation,contradiction_explanation,neutral_explanation``` columns in a csv format.
+
+## Pre-trained models
+We are sharing pre-trained [label-specific generators](https://drive.google.com/file/d/1lZZYbAwZ8kphY8lp0bVSOQ841c683uUc/view?usp=sharing).
+We are also sharing pre-trained classifiers for [NILE-PH Append](https://drive.google.com/file/d/1DacGNNiPvUC6lYk9jzq44QlR5uNAOPss/view?usp=sharing) and [NILE Independent](https://drive.google.com/file/d/10xcnzWTyg1dgX8hldAsnGn52Oqocvqon/view?usp=sharing) architectures.
 
 ## Citation
 If you use this code, please consider citing:
