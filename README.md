@@ -1,5 +1,5 @@
 # NILE
-Reference code for [ACL20](http://acl2019.org/) paper -  NILE : Natural Language Inference with Faithful Natural Language Explanations.
+Reference code for [ACL20](http://acl2019.org/) paper -  [NILE : Natural Language Inference with Faithful Natural Language Explanations](https://www.aclweb.org/anthology/2020.acl-main.771/).
 
 <p align="center">
   <img align="center" src="https://github.com/SawanKumar28/nile/blob/master/images/architecture.jpg" alt="...">
