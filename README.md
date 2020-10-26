@@ -89,7 +89,8 @@ We are also sharing pre-trained classifiers for [NILE-PH Append](https://drive.g
 ## Citation
 If you use this code, please consider citing:
 
-[1] Kumar, Sawan, and Partha Talukdar. "NILE : Natural Language Inference with Faithful Natural Language Explanations." To appear at 2020 Annual Conference of the Association for Computational Linguistics. 
+[1] Sawan Kumar and Partha Talukdar. 2020. NILE : Natural language inference with faithful natural language explanations. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 8730–8742, Online. Association for Computational Linguistics.
+[[bibtex](https://www.aclweb.org/anthology/2020.acl-main.771.bib)]
  
 ## Contact
 For any clarification, comments, or suggestions please create an issue or contact sawankumar@iisc.ac.in
