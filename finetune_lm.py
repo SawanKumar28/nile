@@ -119,7 +119,7 @@ def train(args, train_dataset, model, tokenizer):
             batch, prompt_lengths, total_lengths = batch
             max_length = torch.max(total_lengths).item()
             batch = batch[:, :max_length]
-            inputs, labels = (batch, batch)
+            inputs, labels = (batch, batch.clone().detach())
             inputs = inputs.to(args.device)
             labels = labels.to(args.device)
             for idx in range(len(prompt_lengths)):
